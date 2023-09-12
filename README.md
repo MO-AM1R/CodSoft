@@ -7,7 +7,6 @@ This repository, named CodSoft, houses three distinct projects. Each project ser
 1. [Calculator Website](#calculator-website)
 2. [To-Do List Website](#to-do-list-website)
 3. [Portfolio](#portfolio)
-4. [License](#license)
 
 ## Calculator Website
 
