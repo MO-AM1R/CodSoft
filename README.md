@@ -1,75 +1,29 @@
-# CodSoft README
+# To-Do List README
 
-This repository, named CodSoft, houses three distinct projects. Each project serves a different purpose, and this README file will provide an overview of each project along with instructions on how to set them up and use them.
+This repository contains the code for the **To-Do List** web application, which allows users to create, edit, and manage their tasks using local storage for data persistence.
 
-## Table of Contents
+## Overview
 
-1. [Calculator Website](#calculator-website)
-2. [To-Do List Website](#to-do-list-website)
-3. [Portfolio](#portfolio)
+The To-Do List project is a web application that simplifies task management. Users can create, edit, and delete tasks, and their data is stored locally so that tasks persist between sessions. It's a handy tool for personal organization.
 
-## Calculator Website
+## Installation
 
-The Calculator Website is a simple web application that allows users to perform basic arithmetic operations. It provides a user-friendly interface for addition, subtraction, multiplication, and division.
-
-### Installation
-
-To run the Calculator Website locally:
+To run the To-Do List locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/MO-AM1R/CodSoft
+   git clone https://github.com/your-username/CodSoft.git
    ```
 
-2. Navigate to the `Calculator` directory:
+2. Navigate to the `ToDoList` directory:
 
    ```
-   cd CodSoft/Calculator
+   cd CodSoft/ToDoList
    ```
 
-3. Open the `index.html` file in your web browser to use the Calculator Website.
+3. Open the `index.html` file in your web browser to start using the To-Do List.
 
-## To-Do List Website
+## Usage
 
-The To-Do List Website is a web application that enables users to create, edit, and delete tasks. It utilizes local storage to save tasks, ensuring that the data persists even after the browser is closed.
-
-### Installation
-
-To run the To-Do List Website locally:
-
-1. Clone this repository to your local machine:
-
-   ```
-   git clone https://github.com/MO-AM1R/CodSoft
-   ```
-
-2. Navigate to the `To Do List` directory:
-
-   ```
-   cd CodSoft/To Do List
-   ```
-
-3. Open the `index.html` file in your web browser to start using the To-Do List Website.
-
-## Portfolio
-
-The Portfolio is a personal showcase website that displays the skills, projects, and certifications of Mohamed Amir. It also provides information about his background, education, and contact details.
-
-### Installation
-
-To run the Portfolio locally:
-
-1. Clone this repository to your local machine:
-
-   ```
-   git clone https://github.com/MO-AM1R/CodSoft
-   ```
-
-2. Navigate to the `My Portfolio` directory:
-
-   ```
-   cd CodSoft/My Portfolio
-   ```
-
-3. Open the `index.html` file in your web browser to view Mohamed Amir's Portfolio.
+Using the To-Do List is easy. Add tasks, mark them as completed, edit task details, or remove tasks as needed. Your tasks will be saved locally and remain accessible even after you close the browser.
