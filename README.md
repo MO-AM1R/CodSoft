@@ -2,6 +2,11 @@
 
 This repository contains the code for the **To-Do List** web application, which allows users to create, edit, and manage their tasks using local storage for data persistence.
 
+Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+
 ## Overview
 
 The To-Do List project is a web application that simplifies task management. Users can create, edit, and delete tasks, and their data is stored locally so that tasks persist between sessions. It's a handy tool for personal organization.
