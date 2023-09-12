@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../Images/Background.jpeg);
+  backdrop-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container {
+  background-image: url(../Images/Background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 100;
+  width: 60rem;
+  background-position-x: -3px;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  margin: 15% auto;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.inputTask {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 12px 0;
+}
+
+input {
+  height: 35px;
+  width: 20rem;
+  outline: none;
+  font-size: 16px;
+  padding-left: 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 1s ease;
+  font-size: large;
+  font-weight: 600;
+}
+
+.buttonAdd {
+  background-color: #4177d9;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.342);
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 20%;
+  width: 30%;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.toDoList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  height: 40px;
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.taskText {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #4177d9;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.342);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0px 5px 40px;
+  float: right;
+  width: 7.5rem;
+  height: 30px;
+}
+
+.delete {
+  background-color: #901c05;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.swal-button {
+  background-color: #4177d9;
+}

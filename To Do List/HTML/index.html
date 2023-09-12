@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <script src="../JS/Script.js"></script>
+    <link rel="stylesheet" href="../CSS/stylesheet.css" />
+    <link rel="icon" href="../Images/icon.png" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="inputTask">
+        <label class="inputTaskLabel">
+          <input
+            onkeypress="checkIfEnter(event)"
+            autofocus
+            id="inputText"
+            type="text"
+            placeholder="Type your task here"
+          />
+        </label>
+        <button class="buttonAdd" type="button" onclick="addTask()">
+          Add Task
+        </button>
+      </div>
+      <div class="toDoList" id="toDoList"></div>
+    </div>
+  </body>
+</html>
