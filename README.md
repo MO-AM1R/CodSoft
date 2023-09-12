@@ -18,16 +18,10 @@ To run the To-Do List locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/CodSoft.git
+   git clone https://github.com/MO-AM1R/To-Do-List
    ```
-
-2. Navigate to the `ToDoList` directory:
-
-   ```
-   cd CodSoft/ToDoList
-   ```
-
-3. Open the `index.html` file in your web browser to start using the To-Do List.
+   
+2. Open the `index.html` file in your web browser to start using the To-Do List.
 
 ## Usage
 
