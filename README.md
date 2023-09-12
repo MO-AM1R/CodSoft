@@ -2,7 +2,7 @@
 
 This repository contains the code for the **To-Do List** web application, which allows users to create, edit, and manage their tasks using local storage for data persistence.
 
-Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
